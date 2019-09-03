@@ -15,7 +15,7 @@ public class ContactsPage {
 	ElementUtil elementUtil;
 
 	By createContactButton = By.xpath("//span[text()='Create contact']");
-	By createContactFormButton = By.xpath("//li//span[text()='Create contact']");
+	By createContactFormButton = By.xpath("//li//span[text()='Create and add another']");
 	By email = By.id("uid-ctrl-1");
 	By firstName = By.id("uid-ctrl-2");
 	By lastName = By.id("uid-ctrl-3");
